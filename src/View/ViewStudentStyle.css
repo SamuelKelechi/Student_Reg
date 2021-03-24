@@ -1,0 +1,65 @@
+.View_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+.View_ContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 280px;
+  align-items: center;
+  border-radius: 10px;
+  margin: 15px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.Activate_Container {
+  display: flex;
+  margin-top: 10px;
+  background-color: green;
+  width: 80px;
+  height: 30px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.Profile_Holder {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: rgb(155, 196, 196);
+}
+
+.Image_Pix {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+.Name_Holder {
+  margin-left: 20px;
+  
+}
+
+.Profile_Container {
+  width:"100%";
+  margin: 5px;
+}
+
+.Interest_Container {
+  width: 90%;
+  text-align: left;
+  margin-bottom: 10px;
+  border-top: 1px dashed black;
+  margin-top: 15px;
+}
